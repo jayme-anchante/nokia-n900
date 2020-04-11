@@ -6,6 +6,7 @@ curl
 neofetch
 elinks
 jq
+alpine-sdk
 nodejs
 npm
 python3
