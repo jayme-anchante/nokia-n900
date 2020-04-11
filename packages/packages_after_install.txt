@@ -6,3 +6,5 @@ curl
 neofetch
 elinks
 jq
+nodejs
+npm
