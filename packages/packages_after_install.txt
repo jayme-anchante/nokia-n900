@@ -4,6 +4,5 @@ screen
 htop
 curl
 neofetch
-man
 elinks
 jq
