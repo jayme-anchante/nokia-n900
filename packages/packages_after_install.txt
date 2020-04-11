@@ -3,3 +3,4 @@ ffmpeg
 screen
 htop
 curl
+neofetch
