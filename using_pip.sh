@@ -1,1 +1,7 @@
-alias p3install="pip3 install --trusted-host pypi.org --trusted-host files.pythonhosted.org"
+#!/bin/sh
+
+mkdir -p ~/.config/pip
+echo '[global]
+trusted-host = pypi.python.org
+               pypi.org
+               files.pythonhosted.org' >> ~/.config/pip/pip.conf
