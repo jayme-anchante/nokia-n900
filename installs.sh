@@ -1,4 +1,4 @@
 #!/bin/sh
-packages=`cat packages/packages_after_install.txt`
+packages=`cat packages/system.txt`
 echo installing $packages
 apk add --no-cache $packages
