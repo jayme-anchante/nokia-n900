@@ -1,10 +1,4 @@
-#!/bin/bash
-
-apk update
-apk add --no-cache \
-	git \
-	neofetch \
-	curl \
-	man \
-	elinks \
-	jq
+#!/bin/sh
+packages=`cat packages/packages_after_install.txt`
+echo installing $packages
+apk add --no-cache $packages
