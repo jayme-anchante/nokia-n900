@@ -4,3 +4,4 @@ screen
 htop
 curl
 neofetch
+man
